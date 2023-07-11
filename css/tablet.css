@@ -1,0 +1,58 @@
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  /*Banner */
+  section > .container {
+    width: 100%;
+    padding: 5px;
+  }
+  /* Nav */
+  .ctn-nav {
+    font-size: 18px;
+  }
+  .ctn-nav a {
+    padding: 5px;
+  }
+  .plus,
+  .nav-text {
+    display: none;
+  }
+  /* Muc tieu - Thong tin ca nhan*/
+  #target {
+    background-color: #cbcbcb;
+  }
+  .about-container {
+    gap: 0;
+  }
+
+  /* Skill*/
+  .skill {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    gap: 10px;
+  }
+  .skill-ctn {
+    grid-template-rows: 1fr 5fr;
+    padding: 5px;
+  }
+  .card-body-2 {
+    padding: 5px;
+  }
+
+  .hobby {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Giai thuong */
+  .certificate-box {
+    flex-direction: column;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+  .box3 {
+    grid-column: 1/2;
+  }
+  /* Du AN*/
+  .project-container {
+    gap: 10px;
+  }
+}
